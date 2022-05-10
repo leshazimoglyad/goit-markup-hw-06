@@ -757,6 +757,7 @@ body {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  content: "";
 }
 .input-container {
   padding-left: 25px;
