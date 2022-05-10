@@ -739,13 +739,37 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 20px;
-  margin-bottom: 30px;
   justify-content: center;
   align-items: center;
 }
 .input-checbox-two {
   color: #2196f3;
   text-decoration: underline;
+  margin-left: 5px;
+}
+.input-text {
+  font-size: 14px;
+  color: #555555;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.input-text::before {
+  content: "";
+  width: 16px;
+  height: 15px;
+  border: 2px solid #212121;
+  border-radius: 3px;
+  display: block;
+  margin-right: 9px;
+}
+.input-checbox:checked + .input-text::before {
+  background-color: #2196f3;
+  border: none;
+  background-image: url(../images/Vector-9.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .input-modal-icon {
   position: absolute;
@@ -760,7 +784,7 @@ body {
   content: "";
 }
 .input-container {
-  padding-left: 25px;
+  margin-left: 25px;
 }
 .button-input {
   font-family: "Roboto";

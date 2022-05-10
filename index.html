@@ -526,11 +526,15 @@
           ></textarea>
 
           <div class="input-container">
-            <input type="checkbox" class="input-checbox" />
-            <label for="checkbox " class="input-checbox"
-              >Соглашаюсь с рассылкой и принимаю</label
+            <input
+              type="checkbox"
+              class="input-checbox visually-hidden"
+              id="input-checbox"
+            />
+            <label for="input-checbox" class="input-text"
+              >Соглашаюсь с рассылкой и принимаю
+              <span class="input-checbox-two"> Условия договора</span></label
             >
-            <span class="input-checbox-two">Условия договора</span>
           </div>
           <button type="submit" class="button-input">Отправить</button>
         </form>
