@@ -796,7 +796,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  background: #188ce8;
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   width: 200px;
@@ -806,6 +806,11 @@ body {
   margin: 0 auto;
 
   color: #ffffff;
+}
+.button-input:hover {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .modal-btn {
   width: 30px;
