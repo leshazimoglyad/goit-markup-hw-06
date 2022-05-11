@@ -696,6 +696,7 @@ body {
   border-radius: 4px;
   margin-top: 4px;
   padding-left: 42px;
+  outline: none;
 }
 .input-modal:focus {
   border-color: #2196f3;
