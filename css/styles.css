@@ -729,6 +729,7 @@ body {
   border-radius: 4px;
   padding: 12px 16px;
   resize: none;
+  margin-bottom: 20px;
 }
 .input-checbox {
   font-family: "Roboto";
@@ -738,7 +739,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-top: 20px;
+
   justify-content: center;
   align-items: center;
 }
@@ -784,7 +785,8 @@ body {
   content: "";
 }
 .input-container {
-  margin-left: 25px;
+  display: flex;
+  justify-content: center;
 }
 .button-input {
   font-family: "Roboto";
